@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	//init cancas
+	
 	$("#canvas").canvas({
 		width	: 	650,
 		height 	: 	650
