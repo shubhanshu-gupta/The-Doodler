@@ -1,0 +1,88 @@
+
+body {
+	padding:20px;
+}
+
+canvas {
+	border:1px solid #424242;
+	float:left;
+	margin:0 0 10px 0;
+}
+
+.controls {
+	float:left;
+	width:80px;
+	height:650px;
+	border:3px solid #424242;
+	margin:0 10px 0 4px;
+}
+
+.controls p {
+	padding:0px 10px;
+	float:left;
+}
+
+.controls div {
+	background:#ccc;
+	border:5px solid #424242;
+	font-weight:bold;
+	width:60px;
+	height:34px;
+	line-height:34px;
+	text-align:center;
+	margin-left:6px;
+	float:left;
+	cursor:pointer;
+}
+
+.controls .black {
+	background:#000;
+}
+
+.controls .red {
+	background:red;
+}
+
+.controls .blue {
+	background:blue;
+}
+
+.controls .green {
+	background:green;
+}
+
+.canvasImg {
+	width: 50%;
+	height:10%;
+	padding: 2px;
+}
+
+.savedImg {
+	float:left;
+	border:1px solid #424242;
+	width:200px;
+	height:auto;
+	margin-left:2px;
+	display:none;
+	padding:2px;
+}
+
+.savedImg .imgHolder {
+	border:1px solid #ccc;
+}
+
+.savedImg .imgHolder img {
+	width:100%;
+	height:auto;
+}
+
+.savedImg p {
+	padding:10px 0;
+}
+
+.canvasImg {
+}
+
+.canvasImg p {
+	padding:10px 0;
+}
